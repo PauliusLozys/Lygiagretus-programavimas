@@ -77,10 +77,13 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <CudaCompile Include="IFF_8-13_LozysP_L3.cu" />
     <CudaCompile Include="kernel.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IFF_8-13_LožysP_L3.cu" />
+    <None Include="data1.csv" />
+    <None Include="data2.csv" />
+    <None Include="data3.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
